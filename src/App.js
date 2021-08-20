@@ -7,7 +7,7 @@ import LSProvider from './context/LSProvider';
 
 function App() {
   return (
-    <HashRouter basename="/receitas">
+    <HashRouter>
       <LSProvider>
         <MainProvider>
           <Routes />
