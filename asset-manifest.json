@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/receitas/static/css/main.779ef7ff.chunk.css",
-    "main.js": "/receitas/static/js/main.a4ec66ef.chunk.js",
-    "main.js.map": "/receitas/static/js/main.a4ec66ef.chunk.js.map",
+    "main.js": "/receitas/static/js/main.455e342d.chunk.js",
+    "main.js.map": "/receitas/static/js/main.455e342d.chunk.js.map",
     "runtime-main.js": "/receitas/static/js/runtime-main.6be6f397.js",
     "runtime-main.js.map": "/receitas/static/js/runtime-main.6be6f397.js.map",
     "static/js/2.2d6a26dd.chunk.js": "/receitas/static/js/2.2d6a26dd.chunk.js",
     "static/js/2.2d6a26dd.chunk.js.map": "/receitas/static/js/2.2d6a26dd.chunk.js.map",
     "index.html": "/receitas/index.html",
-    "precache-manifest.fa831ac7e102e5093554d5a5c8267fcc.js": "/receitas/precache-manifest.fa831ac7e102e5093554d5a5c8267fcc.js",
+    "precache-manifest.19f24e9d09c119402cbc92660297813e.js": "/receitas/precache-manifest.19f24e9d09c119402cbc92660297813e.js",
     "service-worker.js": "/receitas/service-worker.js",
     "static/css/main.779ef7ff.chunk.css.map": "/receitas/static/css/main.779ef7ff.chunk.css.map",
     "static/js/2.2d6a26dd.chunk.js.LICENSE.txt": "/receitas/static/js/2.2d6a26dd.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.6be6f397.js",
     "static/js/2.2d6a26dd.chunk.js",
     "static/css/main.779ef7ff.chunk.css",
-    "static/js/main.a4ec66ef.chunk.js"
+    "static/js/main.455e342d.chunk.js"
   ]
 }
