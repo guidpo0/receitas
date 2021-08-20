@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import whiteHeartIconB from '../images/whiteHeartIcon.svg';
-import blackHeartIconB from '../images/blackHeartIcon.svg';
+import whiteHeartIconB from '../images/black/whiteHeartIcon.svg';
+import blackHeartIconB from '../images/black/blackHeartIcon.svg';
 import whiteHeartIconW from '../images/white/whiteHeartIcon.svg';
 import blackHeartIconW from '../images/white/blackHeartIcon.svg';
 import { saveFavorites } from '../helpers/handleLocalStorage';
