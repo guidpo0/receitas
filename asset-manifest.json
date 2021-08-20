@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/receitas/static/css/main.779ef7ff.chunk.css",
+    "main.js": "/receitas/static/js/main.a4ec66ef.chunk.js",
+    "main.js.map": "/receitas/static/js/main.a4ec66ef.chunk.js.map",
+    "runtime-main.js": "/receitas/static/js/runtime-main.6be6f397.js",
+    "runtime-main.js.map": "/receitas/static/js/runtime-main.6be6f397.js.map",
+    "static/js/2.2d6a26dd.chunk.js": "/receitas/static/js/2.2d6a26dd.chunk.js",
+    "static/js/2.2d6a26dd.chunk.js.map": "/receitas/static/js/2.2d6a26dd.chunk.js.map",
+    "index.html": "/receitas/index.html",
+    "precache-manifest.fa831ac7e102e5093554d5a5c8267fcc.js": "/receitas/precache-manifest.fa831ac7e102e5093554d5a5c8267fcc.js",
+    "service-worker.js": "/receitas/service-worker.js",
+    "static/css/main.779ef7ff.chunk.css.map": "/receitas/static/css/main.779ef7ff.chunk.css.map",
+    "static/js/2.2d6a26dd.chunk.js.LICENSE.txt": "/receitas/static/js/2.2d6a26dd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/receitas/static/media/backgroundLogin.fba924b8.svg",
+    "static/media/blackHeartIcon.svg": "/receitas/static/media/blackHeartIcon.970ab03e.svg",
+    "static/media/drinkIcon.svg": "/receitas/static/media/drinkIcon.5457b0b9.svg",
+    "static/media/exploreIcon.svg": "/receitas/static/media/exploreIcon.4dfb0801.svg",
+    "static/media/logo.svg": "/receitas/static/media/logo.f0b0404b.svg",
+    "static/media/mealIcon.svg": "/receitas/static/media/mealIcon.4a7c8820.svg",
+    "static/media/profileIcon.svg": "/receitas/static/media/profileIcon.2ef55437.svg",
+    "static/media/searchIcon.svg": "/receitas/static/media/searchIcon.1ad5c257.svg",
+    "static/media/shareIcon.svg": "/receitas/static/media/shareIcon.bdf82e3e.svg",
+    "static/media/whiteHeartIcon.svg": "/receitas/static/media/whiteHeartIcon.0ef4bd60.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6be6f397.js",
+    "static/js/2.2d6a26dd.chunk.js",
+    "static/css/main.779ef7ff.chunk.css",
+    "static/js/main.a4ec66ef.chunk.js"
+  ]
+}
