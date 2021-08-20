@@ -14,7 +14,7 @@ function VerifyStart({ id }) {
     return (
       <div className="div-start-btn">
         <Link
-          to={ `${window.location.pathname}/in-progress` }
+          to={ `${id}/in-progress` }
         >
           <button
             type="button"
@@ -31,7 +31,7 @@ function VerifyStart({ id }) {
     return (
       <div className="div-start-btn">
         <Link
-          to={ `${window.location.pathname}/in-progress` }
+          to={ `${id}/in-progress` }
         >
           <button
             type="button"
