@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import LSContext from '../context/LSContext';
+import './styles/VerifyStart.css';
 
 function VerifyStart({ id }) {
   const { LSValues: { inProgressRecipes, doneRecipes } } = useContext(LSContext);

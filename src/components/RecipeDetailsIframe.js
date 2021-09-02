@@ -12,15 +12,14 @@ function RecipeDetailsIframe({ recipeType, strYoutube }) {
     return (
       <iframe
         width="100%"
-        // height="315"
         src={ `https://www.youtube.com/embed/${getVideoTag()}` }
         title="YouTube video player"
         frameBorder="0"
         data-testid="video"
         allow="accelerometer;
-  autoplay; clipboard-write;
-  encrypted-media; gyroscope;
-  picture-in-picture"
+          autoplay; clipboard-write;
+          encrypted-media; gyroscope;
+          picture-in-picture"
         allowFullScreen
       />
     );

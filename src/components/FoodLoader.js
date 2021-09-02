@@ -1,5 +1,5 @@
 import React from 'react';
-import './FoodLoader.css';
+import './styles/FoodLoader.css';
 
 // Loader retirado de https://codepen.io/inanikolina/pen/PVvryX
 

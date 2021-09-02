@@ -1,0 +1,9 @@
+.main-recipes-box {
+  align-items: stretch;
+  display: flex;
+  flex: 1 0 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 9vh;
+  max-width: 100vw;
+}

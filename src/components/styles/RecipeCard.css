@@ -1,0 +1,77 @@
+.ingredient-recipes-card-box {
+  background: #8e66ff;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex: 0 0 auto;
+  margin: 3.5% 2%;
+  padding-bottom: 6px;
+  width: 43%;
+}
+
+.meals-recipes-card-box {
+  background: #e34f5e;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex: 0 0 auto;
+  margin: 3.5% 2%;
+  width: 43%;
+}
+
+.drinks-recipes-card-box {
+  background: #fac065;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex: 0 0 auto;
+  margin: 3.5% 2%;
+  width: 43%;
+}
+
+.main-recipes-box-image {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.main-recipes-box-div-name {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-height: 10vh;
+  text-align: center;
+}
+
+.main-recipes-box-name {
+  align-self: center;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 5px;
+  text-align: center;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .ingredient-recipes-card-box {
+    margin: 1.5%;
+    width: 20%;
+  }
+
+  .meals-recipes-card-box {
+    margin: 1.5%;
+    width: 20%;
+  }
+
+  .drinks-recipes-card-box {
+    margin: 1.5%;
+    width: 20%;
+  }
+
+  .main-recipes-box-name {
+    font-size: 14px;
+    font-weight: 900;
+  }
+}

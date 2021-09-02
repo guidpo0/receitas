@@ -1,0 +1,21 @@
+.share-btn-btn {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  margin: 10px;
+  padding: 7px;
+}
+
+.link-black {
+  color: #333;
+}
+
+.link-white {
+  color: white;
+}
+
+.share-btn {
+  width: 30px;
+}

@@ -1,0 +1,11 @@
+.favorite-btn-btn {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.favorite-heart {
+  width: 30px;
+}

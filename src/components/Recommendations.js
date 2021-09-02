@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import PropTypes from 'prop-types';
+import './styles/Recommendations.css';
 
 function Recommendations({ recommendations }) {
   const recipeBox = (recipe, index) => {
@@ -12,6 +13,7 @@ function Recommendations({ recommendations }) {
       strCategory = null,
       strAlcoholic = null,
     } = recipe;
+
     return (
       <div
         key={ index }
@@ -32,7 +34,6 @@ function Recommendations({ recommendations }) {
           data-testid={ `${index}-recomendation-title` }
         >
           {strMeal || strDrink}
-
         </p>
       </div>
     );

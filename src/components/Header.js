@@ -5,6 +5,7 @@ import MainContext from '../context/MainContext';
 import ProfileIcon from '../images/white/profileIcon.svg';
 import SearchIcon from '../images/white/searchIcon.svg';
 import SearchBar from './SearchBar';
+import './styles/Header.css';
 
 function Header({ title, isButtonVisible }) {
   const {

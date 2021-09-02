@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 import shareIconB from '../images/black/shareIcon.svg';
 import shareIconW from '../images/white/shareIcon.svg';
+import './styles/ShareButton.css';
 
 function ShareButton({ link, index }) {
   const [copy, setCopy] = useState(false);
+  const { pathname } = useLocation();
+  const shareIcon = pathname.includes('receitas') ? shareIconB : shareIconW;
 
   function shareLink() {
     setCopy(true);
     return navigator.clipboard.writeText(link);
   }
-
-  const { pathname } = useLocation();
-  const shareIcon = pathname.includes('receitas') ? shareIconB : shareIconW;
 
   return (
     <button

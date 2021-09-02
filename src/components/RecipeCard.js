@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import MainContext from '../context/MainContext';
 import { searchBarFetchMeal } from '../services/theMealAPI';
 import { searchBarFetchCockTail } from '../services/theCockTailAPI';
+import './styles/RecipeCard.css';
 
 function RecipeCard({ recipe, index, test }) {
   const {
@@ -80,7 +81,6 @@ function RecipeCard({ recipe, index, test }) {
           { title }
         </h4>
       </div>
-
     </div>
   );
 }

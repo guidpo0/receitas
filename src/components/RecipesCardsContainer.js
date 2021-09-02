@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import MainContext from '../context/MainContext';
 import RecipeCard from './RecipeCard';
+import './styles/RecipesCardsContainer.css';
 
 function RecipesCardsContainer({ test }) {
   const [showCards, setShowCards] = useState(false);

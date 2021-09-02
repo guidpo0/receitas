@@ -3,6 +3,7 @@ import { useLocation, useHistory } from 'react-router-dom';
 import { searchBarFetchMeal } from '../services/theMealAPI';
 import MainContext from '../context/MainContext';
 import { searchBarFetchCockTail } from '../services/theCockTailAPI';
+import './styles/SearchBar.css';
 
 function SearchBar() {
   const [search, setSearch] = useState('');

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import ShareButton from './ShareButton';
+import './styles/DoneRecipesCard.css';
 
 function DoneRecipesCard({ recipe, index }) {
   const {

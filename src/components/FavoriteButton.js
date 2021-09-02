@@ -7,6 +7,7 @@ import whiteHeartIconW from '../images/white/whiteHeartIcon.svg';
 import blackHeartIconW from '../images/white/blackHeartIcon.svg';
 import { saveFavorites } from '../helpers/handleLocalStorage';
 import LSContext from '../context/LSContext';
+import './styles/FavoriteButton.css';
 
 function FavoriteButton({ recipeData, type, index }) {
   const {

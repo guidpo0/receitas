@@ -1,5 +1,5 @@
 import React from 'react';
-import './DrinkLoader.css';
+import './styles/DrinkLoader.css';
 
 // Loader retirado de https://codemyui.com/clinking-wine-glasses-loading-animation/
 

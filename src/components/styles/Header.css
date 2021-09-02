@@ -1,0 +1,43 @@
+.search-btn {
+  background: none;
+  border: none;
+}
+
+.search-icon {
+  width: 30px;
+}
+
+.div-null {
+  height: 30px;
+  width: 30px;
+}
+
+.header-app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.header-div {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 900;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  padding: 2vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profile-icon {
+  width: 30px;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .header-div {
+    padding: 1% 10%;
+  }
+}

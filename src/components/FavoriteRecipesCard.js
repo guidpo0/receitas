@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import ShareButton from './ShareButton';
 import FavoriteButton from './FavoriteButton';
+import './styles/FavoriteRecipesCard.css';
 
 function FavoriteRecipesCard({ recipe, index }) {
   const {
@@ -77,11 +78,8 @@ function FavoriteRecipesCard({ recipe, index }) {
           <ShareButton link={ pathLink } index={ index } />
           <FavoriteButton recipeData={ RecipeData() } type={ type } index={ index } />
         </div>
-
       </div>
-
     </section>
-
   );
 }
 

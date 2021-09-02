@@ -1,0 +1,64 @@
+.recipes-card-box {
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex: 0 0 auto;
+  margin: 3.5% 2%;
+  min-height: 20vh;
+  width: 96vw;
+}
+
+.favorite-recipes-box-image {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  height: 100%;
+  object-fit: cover;
+  width: auto;
+}
+
+.favorite-recipe-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5em;
+  width: 90%;
+}
+
+.favorite-recipe-card > * {
+  color: #333;
+  margin: 0.3em;
+  text-decoration: none;
+}
+
+.favorite-recipe-card a {
+  color: #333;
+  text-decoration: none;
+}
+
+.div-buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 20vw;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .recipes-card-box {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: auto;
+    width: 80vw;
+  }
+
+  .favorite-recipe-card {
+    width: 80%;
+  }
+
+  .div-buttons {
+    width: auto;
+  }
+}
