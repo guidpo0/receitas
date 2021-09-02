@@ -14,6 +14,7 @@ import RecipeDetailsIframe from '../components/RecipeDetailsIframe';
 import DrinkLoader from '../components/DrinkLoader';
 import FoodLoader from '../components/FoodLoader';
 import listIngredients from '../helpers/listIngredients';
+import './styles/RecipeDetails.css';
 
 function RecipeDetails({ match: { params: { id } } }) {
   const [recipeData, setRecipeData] = useState({ strYoutube: '' });
@@ -85,7 +86,7 @@ function RecipeDetails({ match: { params: { id } } }) {
           className="detail-img"
         />
         <div className={ selectDetailClass(strMeal) }>
-          <div className="detail-header-info">
+          <div>
             <h2 data-testid="recipe-title">{ title }</h2>
             <RecipeDetailsCategory
               strAlcoholic={ strAlcoholic }

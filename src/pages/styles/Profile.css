@@ -1,0 +1,77 @@
+.div-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: center;
+}
+
+.div-profile a {
+  text-align: center;
+  width: 100%;
+}
+
+.profile-email {
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.profile-done-btn {
+  background-color: #4dbb98;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 12px;
+  padding: 0.8em;
+  text-transform: uppercase;
+  width: 51%;
+}
+
+.profile-favorite-btn {
+  background-color: #bee34f;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 12px;
+  padding: 0.8em;
+  text-transform: uppercase;
+  width: 51%;
+}
+
+.profile-logout-btn {
+  background-color: #333;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 12px;
+  padding: 0.8em;
+  text-transform: uppercase;
+  width: 51%;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .profile-done-btn {
+    padding: 1em;
+    width: 20%;
+  }
+
+  .profile-favorite-btn {
+    padding: 1em;
+    width: 20%;
+  }
+
+  .profile-logout-btn {
+    padding: 1em;
+    width: 20%;
+  }
+}

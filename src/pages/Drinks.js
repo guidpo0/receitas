@@ -11,6 +11,7 @@ import {
   getDrinksByCategory,
 }
   from '../services/theCockTailAPI';
+import './styles/Drinks.css';
 
 function Drinks() {
   const {
@@ -23,6 +24,7 @@ function Drinks() {
     setCategorySelected,
   } = useContext(MainContext);
   const { location: { state } } = useHistory();
+
   function filterByCategory({ target: { innerText } }) {
     if (innerText === categorySelected || innerText === 'All') {
       getInitialDrinksRecipes()

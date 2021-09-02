@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { saveTokensAndEmail } from '../helpers/handleLocalStorage';
 import LSContext from '../context/LSContext';
 import logo from '../images/logo.svg';
+import './styles/Login.css';
 
 function Login() {
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);

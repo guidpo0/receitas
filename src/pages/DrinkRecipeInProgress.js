@@ -10,6 +10,7 @@ import ShareButton from '../components/ShareButton';
 import FavoriteButton from '../components/FavoriteButton';
 import listIngredients from '../helpers/listIngredients';
 import DrinkLoader from '../components/DrinkLoader';
+import './styles/DrinkRecipeInProgress.css';
 
 function DrinkRecipeInProgress({ match: { params: { id } } }) {
   const { LSValues: { inProgressRecipes } } = useContext(LSContext);
@@ -81,7 +82,7 @@ function DrinkRecipeInProgress({ match: { params: { id } } }) {
           className="detail-img"
         />
         <div className="drink-detail">
-          <div className="detail-header-info">
+          <div>
             <h3 data-testid="recipe-title">{ strDrink }</h3>
             <p data-testid="recipe-category">{ strCategory }</p>
             <p>{ strAlcoholic }</p>
@@ -94,7 +95,6 @@ function DrinkRecipeInProgress({ match: { params: { id } } }) {
         <div className="detail-infos">
           <form>
             <h3>CheckList de Ingredientes</h3>
-
             {
               listIngredients(recipe).map((ingredient, index) => (
                 <label

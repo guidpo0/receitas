@@ -1,0 +1,34 @@
+.explore-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  justify-content: center;
+}
+
+.explore-div a {
+  text-align: center;
+  width: 100%;
+}
+
+.explore-btn {
+  background-color: #8e66ff;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 12px;
+  padding: 0.8em;
+  text-transform: uppercase;
+  width: 51%;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .explore-btn {
+    padding: 1em;
+    width: 20%;
+  }
+}

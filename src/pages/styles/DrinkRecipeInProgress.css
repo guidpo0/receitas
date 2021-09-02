@@ -1,0 +1,105 @@
+.progress-page {
+  margin-bottom: 50px;
+}
+
+.detail-img {
+  height: 25vh;
+  margin: 0;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 100vw;
+}
+
+.drink-detail {
+  background-color: #fac065;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2vh;
+  width: 100vw;
+}
+
+.detail-header-btn {
+  align-items: center;
+  display: flex;
+}
+
+.detail-infos {
+  margin: 4vh 2vh;
+}
+
+.detail-infos form {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 0;
+}
+
+.detail-infos label {
+  margin-top: 1vh;
+}
+
+.ingredient-checked {
+  text-decoration: line-through;
+}
+
+.progress-checklist {
+  margin-right: 1vh;
+}
+
+.progress-instructions {
+  margin-bottom: 1vh;
+}
+
+.div-start-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.div-start-btn a {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.finish-drink-btn {
+  background-color: #fac065;
+  border-radius: 28px;
+  border-style: none;
+  bottom: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 10px;
+  padding: 7px;
+  position: fixed;
+  text-transform: uppercase;
+}
+
+.finish-drink-btn:disabled {
+  background-color: rgb(133, 133, 133);
+  opacity: 70%;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .progress-page {
+    margin-bottom: 90px;
+  }
+
+  .drink-detail {
+    padding: 1% 10%;
+  }
+
+  .detail-infos {
+    margin: 5% 0;
+    padding: 1% 10%;
+  }
+
+  .finish-drink-btn {
+    font-size: 18px;
+    margin: 15px;
+    padding: 1em;
+  }
+}

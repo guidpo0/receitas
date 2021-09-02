@@ -1,0 +1,92 @@
+.detail-page {
+  margin-bottom: 50px;
+}
+
+.detail-img {
+  height: 25vh;
+  margin: 0;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 100vw;
+}
+
+.food-detail {
+  background-color: #e34f5e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2vh;
+  width: 100vw;
+}
+
+.drink-detail {
+  background-color: #fac065;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2vh;
+  width: 100vw;
+}
+
+.detail-header-btn {
+  align-items: center;
+  display: flex;
+}
+
+.detail-infos {
+  margin: 4vh 2vh;
+}
+
+.detail-infos form {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 0;
+}
+
+.detail-infos label {
+  margin-top: 1vh;
+}
+
+.detail-ingredients {
+  margin: 3vh;
+}
+
+.detail-ingredients li {
+  list-style-type: none;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+
+.detail-ingredients li:before {
+  color: #8b8b8b;
+  content: '•';
+  display: inline-block;
+  left: -1em;
+  position: absolute;
+}
+
+.detail-description {
+  margin: 3vh;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .detail-page {
+    margin-bottom: 90px;
+  }
+
+  .food-detail {
+    padding: 1% 10%;
+  }
+
+  .drink-detail {
+    padding: 1% 10%;
+  }
+
+  .detail-infos {
+    margin: 5% 0;
+    padding: 1% 10%;
+  }
+}

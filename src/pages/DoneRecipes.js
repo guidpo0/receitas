@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import LSContext from '../context/LSContext';
 import Header from '../components/Header';
 import DoneRecipesCard from '../components/DoneRecipesCard';
+import './styles/DoneRecipes.css';
 
 const DoneRecipes = () => {
   const { LSValues: { doneRecipes } } = useContext(LSContext);
@@ -35,7 +36,7 @@ const DoneRecipes = () => {
   return (
     <>
       <Header title="Receitas Feitas" />
-      <section className="doneFilters">
+      <section className="done-filters">
         <button
           type="button"
           data-testid="filter-by-all-btn"

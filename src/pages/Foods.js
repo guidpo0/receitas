@@ -11,6 +11,7 @@ import {
 }
   from '../services/theMealAPI';
 import FoodLoader from '../components/FoodLoader';
+import './styles/Foods.css';
 
 function Foods() {
   const {

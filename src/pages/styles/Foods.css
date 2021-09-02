@@ -1,0 +1,31 @@
+.meal-btn-category {
+  background-color: #e34f5e;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 5px;
+  padding: 3px;
+  width: 30%;
+}
+
+.meal-div-category {
+  margin: 10px;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .meal-btn-category {
+    font-size: 14px;
+    min-height: 40px;
+  }
+
+  .meal-div-category {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    padding: 0 10%;
+    width: 100vw;
+  }
+}

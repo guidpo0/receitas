@@ -1,0 +1,62 @@
+.done-filters {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.filter-by-all-btn {
+  background-color: #4dbb98;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 3px;
+  width: 30%;
+}
+
+.filter-by-food-btn {
+  background-color: #e34f5e;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 3px;
+  width: 30%;
+}
+
+.filter-by-drink-btn {
+  background-color: #fac065;
+  border-radius: 28px;
+  border-style: none;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 3px;
+  width: 30%;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .done-filters {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+  }
+
+  .filter-by-all-btn {
+    font-size: 14px;
+  }
+
+  .filter-by-food-btn {
+    font-size: 14px;
+  }
+
+  .filter-by-drink-btn {
+    font-size: 14px;
+  }
+}

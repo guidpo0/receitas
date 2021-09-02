@@ -10,6 +10,7 @@ import ShareButton from '../components/ShareButton';
 import FavoriteButton from '../components/FavoriteButton';
 import FoodLoader from '../components/FoodLoader';
 import listIngredients from '../helpers/listIngredients';
+import './styles/FoodRecipeInProgress.css';
 
 function FoodRecipeInProgress({ match: { params: { id } } }) {
   const { LSValues: { inProgressRecipes } } = useContext(LSContext);
@@ -88,7 +89,7 @@ function FoodRecipeInProgress({ match: { params: { id } } }) {
           className="detail-img"
         />
         <div className="food-detail">
-          <div className="detail-header-info">
+          <div>
             <h3 data-testid="recipe-title">{ strMeal }</h3>
             <p data-testid="recipe-category">{ strCategory }</p>
           </div>
@@ -120,14 +121,12 @@ function FoodRecipeInProgress({ match: { params: { id } } }) {
                     onClick={ lineThroughUsedIngredients }
                   />
                   { ingredient }
-
                 </label>
               ))
             }
           </form>
           <h3 className="progress-instructions">Instruções</h3>
           <p data-testid="instructions">{ strInstructions }</p>
-
         </div>
         <div className="div-start-btn">
           <Link to="/receitas-feitas">

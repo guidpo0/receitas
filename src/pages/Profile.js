@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import FooterMenu from '../components/FooterMenu';
 import Header from '../components/Header';
 import LSContext from '../context/LSContext';
+import './styles/Profile.css';
 
 const Profile = () => {
   const { LSValues: { user: { email } } } = useContext(LSContext);

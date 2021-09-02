@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import LSContext from '../context/LSContext';
 import Header from '../components/Header';
 import FavoriteRecipesCard from '../components/FavoriteRecipesCard';
+import './styles/FavoritesRecipes.css';
 
 const FavoritesRecipes = () => {
   const { LSValues: { favoriteRecipes } } = useContext(LSContext);
@@ -26,22 +27,21 @@ const FavoritesRecipes = () => {
         setFilteredRecipes(filteredDrink);
         break;
       }
-
       default:
         setFilteredRecipes(favoriteRecipes);
       }
     }
   }
+
   return (
     <>
       <Header title="Receitas Favoritas" />
-      <section className="doneFilters">
+      <section className="done-filters">
         <button
           type="button"
           data-testid="filter-by-all-btn"
           onClick={ () => filterRecipes('all') }
           className="filter-by-all-btn"
-
         >
           All
         </button>
@@ -50,7 +50,6 @@ const FavoritesRecipes = () => {
           type="button"
           onClick={ () => filterRecipes('comida') }
           className="filter-by-food-btn"
-
         >
           Food
         </button>
@@ -59,7 +58,6 @@ const FavoritesRecipes = () => {
           type="button"
           onClick={ () => filterRecipes('bebida') }
           className="filter-by-drink-btn"
-
         >
           Drinks
         </button>

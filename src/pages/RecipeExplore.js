@@ -4,6 +4,7 @@ import FooterMenu from '../components/FooterMenu';
 import Header from '../components/Header';
 import { getRandomDrink } from '../services/theCockTailAPI';
 import { getRandomMeal } from '../services/theMealAPI';
+import './styles/RecipeExplore.css';
 
 const RecipeExplore = () => {
   const { pathname } = useLocation();

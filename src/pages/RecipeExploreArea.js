@@ -6,6 +6,7 @@ import RecipesCardsContainer from '../components/RecipesCardsContainer';
 import {
   getInitialMealsRecipes, getMealsArea, getMealsByArea } from '../services/theMealAPI';
 import FoodLoader from '../components/FoodLoader';
+import './styles/RecipeExploreArea.css';
 
 const RecipeExploreArea = () => {
   const [areaOptions, setAreaOptions] = useState([{ strArea: '' }]);
@@ -51,7 +52,6 @@ const RecipeExploreArea = () => {
             <option
               key={ index }
               data-testid={ `${region.strArea}-option` }
-              className="explore-option-input"
             >
               { region.strArea }
             </option>
