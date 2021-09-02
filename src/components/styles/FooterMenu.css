@@ -20,11 +20,11 @@
 @media only screen and ( min-width : 768px ) {
 
   .footer {
-    height: 6vh;
+    height: 8vh;
     padding: 1% 10%;
   }
 
   .footer img {
-    height: 4vh;
+    height: 6vh;
   }
 }

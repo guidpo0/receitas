@@ -23,7 +23,12 @@
   width: 90%;
 }
 
+.search-radios label {
+  cursor: pointer;
+}
+
 .search-radios label input {
+  cursor: pointer;
   margin: 5px;
   position: relative;
 }
@@ -43,6 +48,7 @@
   border-radius: 28px;
   border-style: none;
   color: white;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 1px;

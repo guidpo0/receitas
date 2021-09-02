@@ -47,6 +47,8 @@
   margin: 12px;
   padding: 7px;
   text-transform: uppercase;
+  transform: scale(1.2);
+  transition: 1s;
   width: 50%;
 }
 
@@ -54,6 +56,7 @@
   background-color: rgb(133, 133, 133);
   cursor: default;
   opacity: 70%;
+  transform: scale(1);
 }
 
 @media only screen and ( min-width : 768px ) {

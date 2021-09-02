@@ -68,6 +68,7 @@
   border-style: none;
   bottom: 0;
   color: white;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -79,6 +80,7 @@
 
 .finish-food-btn:disabled {
   background-color: rgb(133, 133, 133);
+  cursor: default;
   opacity: 70%;
 }
 

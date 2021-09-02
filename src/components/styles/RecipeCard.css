@@ -2,6 +2,7 @@
   background: #8e66ff;
   border-radius: 6px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
   flex: 0 0 auto;
   margin: 3.5% 2%;
   padding-bottom: 6px;
@@ -12,6 +13,7 @@
   background: #e34f5e;
   border-radius: 6px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
   flex: 0 0 auto;
   margin: 3.5% 2%;
   width: 43%;
@@ -21,6 +23,7 @@
   background: #fac065;
   border-radius: 6px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
   flex: 0 0 auto;
   margin: 3.5% 2%;
   width: 43%;
