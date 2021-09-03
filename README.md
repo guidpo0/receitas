@@ -7,10 +7,15 @@ Projeto desenvolvido em grupo durante formação em desenvolvedor Web Full Stack
 # Boas vindas ao repositório do projeto de Receitas!
 
 Essa aplicação têm a intenção de proporcionar ao(à) usuário(a) acesso à diversas receitas diferentes para que seja explorado seu potencial culinário! Após fazer seu login você será direcionado(a) à página principal de receitas de comidas, onde é possível utilizar filtros para pesquisar comidas por suas categorias, nome, ingredientes ou primeira letra.
+
 No menu inferior é possível selecionar a página principal de bebidas que possui as mesmas funcionalidades da de comida. Também no menu inferior é possível selecionar o campo de explorar, desse modo você poderá explorar comidas ou bebidas pelos seus ingredientes ou área, ou ainda pedir para ser surpreendido(a) por uma receita aleatória!
+
 Após selecionar uma receita você será direcionado(a) à página de detalhes dessa receita, onde poderá ver instruções e informações, caso queira realizar esta receita é só clicar no botão ao fim da página que um checklist dos ingredientes ficará a sua disposição!
+
 No menu superior da aplicação você terá acesso ao seu perfil, onde é possível verificar seu login, suas receitas feitas e suas receitas favoritas!
+
 Lembrando que esta aplicação corresponde aos meus esforços e dos meus colegas para melhorarmos nossas hard skills e soft skills sinta-se à vontade para explorá-la! Feedbacks construtivos são sempre bem vindos!
+
 Abaixo você poderá encontrar mais informações técnicas sobre este projeto.
 
 ---
